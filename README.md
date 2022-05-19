@@ -36,8 +36,7 @@ Access: w6G6AM
 
 After understanding the code and the project, run the project locally and start contributing. Our improvement proposals will be posted in this repo and converted into issues that you can assing yourself and develop it.
 
-### Code standardization
-.
+## Code standardization
 
 
 ## Commits and Pull Requests Rules
