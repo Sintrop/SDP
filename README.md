@@ -1,4 +1,7 @@
-# SIP
+# SMR
+Sintrop Management Repository
+
+SIP
 Sintrop Improvement Proposals
 
 ## Project introduction 
