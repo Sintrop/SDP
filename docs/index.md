@@ -4,5 +4,5 @@
 
 !!! note
 
-    This project is under active development.
+    Este projeto está em desenvolvimento ativo.
 
