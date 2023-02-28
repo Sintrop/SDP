@@ -1,34 +1,15 @@
-Usage
+Utilização
 =====
 
-Installation
+Instalando o MetaMask no seu dispositivo
 ------------
 
-To use sintrop, first install it using pip:
+-Obtenha a última versão da MetaMask direto em seu site oficial clicando aqui.
+-Para instalá-la, basta clicar em "Install MetaMask for Chrome" e, em seguida, "Add to Chrome" — já na página da Chrome Web Store. 
 
-```console
-(.venv) $ pip install sintrop
-```
+Instalando o MetaMask no seu dispositivo
+------------
 
-Creating recipes
-----------------
-
-To retrieve a list of random ingredients, you can use the
-`sintrop.get_random_ingredients()` function:
-
-::: sintrop.get_random_ingredients
-    options:
-      show_root_heading: true
-
-<br>
-
-The `kind` parameter should be either `"meat"`, `"fish"`, or `"veggies"`.
-Otherwise, [`get_random_ingredients`][sintrop.get_random_ingredients] will raise an exception [`sintrop.InvalidKindError`](/api#sintrop.InvalidKindError).
-
-For example:
-
-```python
->>> import sintrop
->>> sintrop.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
-```
+Assim que instalada, a extensão irá abrir uma nova janela com o processo de configuração inicial. Para iniciar o processo, clique em "Comece agora", na parte inferior da tela. Em seguida, clique no botão "Criar uma carteira", que levará a uma página sobre coleta de dados opcionais — escolha conforme desejado. Adiante, será necessário definir uma senha de acesso com pelo menos 8 dígitos, com a recomendação sendo utilizar caracteres especiais.
+Na última etapa, o processo de instalação apresenta e exige a conferência da "Frase de Recuperação Secreta", que funciona como uma "chave-mestra" e consegue recuperar o acesso a uma carteira, caso o usuário perca sua senha. Por esse motivo, ela é fundamentalmente mais importante que as credenciais comuns e deve ser guardada com cuidado extra.
+Para prosseguir, revele a sequência de palavras, verifique-as e conclua o processo.
